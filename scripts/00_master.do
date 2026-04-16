@@ -56,9 +56,9 @@ global rootdir `"`c(pwd)'"'
 cap adopath - PERSONAL
 cap adopath - SITE
 cap adopath - OLDPLACE
-adopath + "stata_packages"
 net set ado "PLUS"
 ssc install ivreg2 //just a fix for ivregdhfe (which needs at least one ancillary packages in PLUS)
+adopath + "stata_packages"
 net set ado "stata_packages"
 
 
