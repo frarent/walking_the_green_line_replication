@@ -21,7 +21,7 @@ This package contains the complete code and data to reproduce all tables and fig
 ## Requirements
 
 **Software:** Stata 16 or later (see [Last tested](#last-tested) below for the exact version used).  
-**Hardware:** Full replication takes approximately 45 minutes.  
+**Hardware:** Full replication takes approximately 20 minutes.  
 **Ado-files:** All required packages are bundled in the `stata_packages/` folder and loaded automatically — no internet access or installation needed. Running `00a_packages_install.do` (switch `install_packages = 1`) will reinstall the latest versions from SSC, which may produce slightly different results.
 
 | Package | Purpose | Dependencies |
