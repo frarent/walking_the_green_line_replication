@@ -48,7 +48,7 @@ logs/
 temp/
 
 # Raw CSV source files — db_full.csv is too large for GitHub (156 MB)
-data/raw_data/*.csv
+data/raw_data/db_full.csv
 
 walking_the_green_line_replication.7z
 
