@@ -4,7 +4,7 @@ cap est drop _all
 //	technologies, clustered robust standard errors
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 // NUMBER OF CPC CLASSES PER PATENT
 egen n_cpc=rowtotal($cpc_4d_green ),missing

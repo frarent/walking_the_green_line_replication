@@ -4,7 +4,7 @@ cap est drop _all
 //	technologies, PPML with multiple fixed effects
 //+++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 
 *col 1

@@ -4,7 +4,7 @@ cap est drop _all
 //	technologies – cem
 //+++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_cem.dta",clear
+use "${raw_data_path}/db_green_cem.dta",clear
 
 
 *IPW+FE

@@ -2,7 +2,7 @@
 // TABLE 3 - CITATIONS BREAKDOWN
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 global y cit5_noself_nostrict cit5_noself_strict cit5_out_nostrict cit5_out_strict  cit5_US cit5_country_breadth
 

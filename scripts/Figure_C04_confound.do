@@ -4,7 +4,7 @@ cap est drop _all
 //	correlation between Gvt R&D and five-year citations
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 qui pcorr fwd_cits5 gvtRD nb_inventors nb_applicants originality ///
 	$cpc_4d_green i.filing_year2

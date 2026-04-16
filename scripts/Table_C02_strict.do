@@ -4,7 +4,7 @@ cap est drop _all
 // subsequent technologies, stringent clean tech definition
 //+++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_strict.dta",clear
+use "${raw_data_path}/db_green_strict.dta",clear
 
 
 *IPW+FE

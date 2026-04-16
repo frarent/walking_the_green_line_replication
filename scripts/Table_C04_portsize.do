@@ -4,7 +4,7 @@ cap est drop _all
 //	weighting by the size of the clean tech patent portfolio
 //+++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 
 bysort id_applicant: gen n_pat_green = _N 

@@ -5,7 +5,7 @@ cap est drop _all
 //	patents at the applicant level, clean tech sample
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_treat_het.dta",clear
+use "${raw_data_path}/db_treat_het.dta",clear
 
 
 qui reg count  amount_tot  nb_inventors nb_applicants ///

@@ -7,7 +7,7 @@ cap est drop _all
 //	coarsened exact matching.
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green.dta",clear
+use "${raw_data_path}/db_green.dta",clear
 
 cap drop cem_weights
 

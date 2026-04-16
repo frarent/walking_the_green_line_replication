@@ -4,7 +4,7 @@ cap est drop _all
 //	 R&D – propensity score
 //+++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green.dta",clear
+use "${raw_data_path}/db_green.dta",clear
 
 
 qui probit gvtRD originality nb_inventors nb_applicants ///

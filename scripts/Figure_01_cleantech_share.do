@@ -5,7 +5,7 @@ cap est drop all
 //	by type of clean technology
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green.dta",clear
+use "${raw_data_path}/db_green.dta",clear
 
 keep d_ei_4dig_* gvtRD
 gen id=_n

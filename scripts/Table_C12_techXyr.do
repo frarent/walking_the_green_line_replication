@@ -5,7 +5,7 @@ cap est drop _all
 //+++++++++++++++++++++++++++++++++++++++++++
 
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 *col 1
 qui reghdfe fwd_cits5 i.gvtRD nb_inventors nb_applicants originality  [aw=w1], a(id_applicant i.filing_year2 ///

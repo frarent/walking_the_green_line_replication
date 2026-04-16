@@ -68,7 +68,8 @@ net set ado "stata_packages"
 global install_packages  1
 
 // Build analysis datasets from raw CSVs
-global build_data        1
+// (not needed for replication — pre-built DTA files are in data/raw_data/)
+global build_data        0
 
 // Run main manuscript tables (Table 02–04)
 global tables_main       1

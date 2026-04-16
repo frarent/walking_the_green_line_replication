@@ -3,7 +3,7 @@ cap est drop _all
 // Figure B1: Variance ratio of residuals vs bias before and after matching
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green.dta",clear
+use "${raw_data_path}/db_green.dta",clear
 
 qui xi: psmatch2 gvtRD originality nb_inventors nb_applicants ///
 	$cpc_4d_green i.filing_year2, out(fwd_cits5) ate common trim(5)

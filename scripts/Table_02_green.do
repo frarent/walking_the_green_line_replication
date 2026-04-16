@@ -2,7 +2,7 @@ cap est drop _all
 //++++++++++++++++++++++++++++++++++++++++++++
 // TABLE 3 - GREEN SAMPLE
 //++++++++++++++++++++++++++++++++++++++++++++
-use "${data_path}/db_for_restat_green.dta",clear
+use "${raw_data_path}/db_green.dta",clear
 
 *column 1
 qui reg fwd_cits5 i.gvtRD originality nb_inventors nb_applicants $cpc_4d_green ///
@@ -27,7 +27,7 @@ estadd scalar pvalue = 2*normal(-abs(b[1,1]/sqrt(v[1,1]))):est1
 
 
 *column 2
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 qui reg fwd_cits5 i.gvtRD nb_inventors nb_applicants originality $cpc_4d_green ///
 	i.filing_year2 [aw=w1] , vce(robust)

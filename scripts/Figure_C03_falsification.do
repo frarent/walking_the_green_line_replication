@@ -3,7 +3,7 @@ cap est drop all
 // Figure 2: Falsification test with randomly assigned treatment
 //++++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green.dta",clear
+use "${raw_data_path}/db_green.dta",clear
 
 set seed 10121492
 

@@ -4,7 +4,7 @@ cap est drop _all
 //	technologies, augmented inverse-probability-weighted estimator
 //+++++++++++++++++++++++++++++++++++++++++++
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 
 qui teffects aipw (fwd_cits5 nb_inventors nb_applicants originality ///

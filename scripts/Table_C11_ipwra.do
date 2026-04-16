@@ -5,7 +5,7 @@ cap est drop _all
 //+++++++++++++++++++++++++++++++++++++++++++
 
 
-use "${data_path}/db_for_restat_green_ipw.dta",clear
+use "${raw_data_path}/db_green_ipw.dta",clear
 
 qui teffects ipwra (fwd_cits5 nb_inventors nb_applicants originality ///
 	$cpc_4d_green i.filing_year2 ) (gvtRD  nb_inventors nb_applicants ///
