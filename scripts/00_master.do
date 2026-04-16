@@ -65,7 +65,7 @@ net set ado "stata_packages"
 *=============================================================================*
 
 // Install required packages
-global install_packages  1
+global install_packages  0
 
 // Build analysis datasets from raw CSVs
 // (not needed for replication — pre-built DTA files are in data/raw_data/)

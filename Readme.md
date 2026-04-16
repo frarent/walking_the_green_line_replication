@@ -3,8 +3,10 @@
 ## Walking the Green Line: Government Sponsored R&D and Clean Technologies in the US
 
 **Authors:** Francesco Rentocchini, Antonio Vezzani, Sandro Montresor, Gianluca Orsatti  
+
 **Last updated:** April 2026
-**Previous version of manuscript** (soon to be updated with new analysis and co-author) 
+
+**Previous version of manuscript** (soon to be updated with new analysis and co-author):
 
 `Rentocchini, Francesco and Vezzani, Antonio and Montresor, Sandro, Walking the Green Line: Government Sponsored R&D and Clean Technologies in the US (May 5, 2023). Available at SSRN: https://ssrn.com/abstract=4439508 or http://dx.doi.org/10.2139/ssrn.4439508`
 
